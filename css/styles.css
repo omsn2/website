@@ -1,4 +1,3 @@
-/* css/styles.css */
 body {
     font-family: Arial, sans-serif;
 }
@@ -44,4 +43,24 @@ section h2 {
 
 .carousel-caption h5, .carousel-caption p {
     color: #ffffff;
+}
+
+.project-content {
+    cursor: pointer;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.project-content:hover {
+    background-color: #f8f9fa;
+}
+
+.highlight-on-hover {
+    transition: transform 0.3s ease;
+}
+
+.highlight-on-hover:hover {
+    transform: scale(1.05);
 }
