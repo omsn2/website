@@ -1,0 +1,47 @@
+/* css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+header h1 {
+    color: #dc3545;
+}
+
+header h2 {
+    color: #343a40;
+}
+
+header .lead {
+    color: #6c757d;
+}
+
+#contactModal .modal-header {
+    border-bottom: none;
+}
+
+#contactModal .modal-body {
+    padding-top: 0;
+}
+
+#contactModal .form-check-label {
+    font-size: 0.875rem;
+}
+
+section h2 {
+    margin-bottom: 2rem;
+    color: #343a40;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.carousel-caption h5, .carousel-caption p {
+    color: #ffffff;
+}
